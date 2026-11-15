@@ -1,0 +1,13 @@
+interface:
+  display_name: purpose-driven-design
+  short_description: 대목적부터 구현·검증까지 연결하고 설계 변경의 근거와 범위를 관리합니다
+  default_prompt: $purpose-driven-design 이 프로젝트의 목적 계층과 구현별 근거, 완료 기준을 설계해줘.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
